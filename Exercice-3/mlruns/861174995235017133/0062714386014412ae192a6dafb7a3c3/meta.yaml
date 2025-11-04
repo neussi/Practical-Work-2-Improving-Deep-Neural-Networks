@@ -1,0 +1,15 @@
+artifact_uri: file:///home/patrice/TP2-NEUSSI-24P820/Exercice-3/mlruns/861174995235017133/0062714386014412ae192a6dafb7a3c3/artifacts
+end_time: 1762241242991
+entry_point_name: ''
+experiment_id: '861174995235017133'
+lifecycle_stage: active
+run_id: 0062714386014412ae192a6dafb7a3c3
+run_name: Optimizer_RMSprop
+run_uuid: 0062714386014412ae192a6dafb7a3c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762241188563
+status: 3
+tags: []
+user_id: patrice

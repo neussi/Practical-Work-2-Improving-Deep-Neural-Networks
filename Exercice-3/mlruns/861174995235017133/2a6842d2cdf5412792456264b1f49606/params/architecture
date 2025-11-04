@@ -1,0 +1,1 @@
+Dense(512)-Dropout(0.2)-Dense(10)

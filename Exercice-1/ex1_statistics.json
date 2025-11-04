@@ -1,0 +1,22 @@
+{
+    "model": "Baseline MNIST Classifier",
+    "epochs": 5,
+    "batch_size": 128,
+    "architecture": "Dense(512)-Dropout(0.2)-Dense(10)",
+    "results": {
+        "training": {
+            "loss": 0.0533,
+            "accuracy": 98.4
+        },
+        "validation": {
+            "loss": 0.0679,
+            "accuracy": 98.03
+        },
+        "test": {
+            "loss": 0.0705,
+            "accuracy": 97.75
+        },
+        "overfitting_gap": 0.36,
+        "diagnostic": "GOOD FIT"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "experiment": "Optimizer Comparison",
+    "date": "2025-11-04 08:29:21",
+    "epochs": 10,
+    "batch_size": 128,
+    "optimizers": [
+        {
+            "name": "SGD_basic",
+            "test_accuracy": 92.72,
+            "validation_accuracy": 93.98,
+            "training_accuracy": 91.27,
+            "test_loss": 0.2682,
+            "training_time": 35.97,
+            "overfitting_gap": -2.71
+        },
+        {
+            "name": "SGD_momentum",
+            "test_accuracy": 97.28,
+            "validation_accuracy": 97.72,
+            "training_accuracy": 97.29,
+            "test_loss": 0.0936,
+            "training_time": 36.92,
+            "overfitting_gap": -0.42
+        },
+        {
+            "name": "SGD_nesterov",
+            "test_accuracy": 97.21,
+            "validation_accuracy": 97.63,
+            "training_accuracy": 97.33,
+            "test_loss": 0.0933,
+            "training_time": 40.35,
+            "overfitting_gap": -0.31
+        },
+        {
+            "name": "RMSprop",
+            "test_accuracy": 98.31,
+            "validation_accuracy": 98.3,
+            "training_accuracy": 99.26,
+            "test_loss": 0.0571,
+            "training_time": 41.32,
+            "overfitting_gap": 0.96
+        },
+        {
+            "name": "Adam",
+            "test_accuracy": 97.98,
+            "validation_accuracy": 98.08,
+            "training_accuracy": 99.31,
+            "test_loss": 0.0631,
+            "training_time": 48.88,
+            "overfitting_gap": 1.23
+        },
+        {
+            "name": "AdamW",
+            "test_accuracy": 98.36,
+            "validation_accuracy": 98.33,
+            "training_accuracy": 99.27,
+            "test_loss": 0.0572,
+            "training_time": 49.3,
+            "overfitting_gap": 0.94
+        }
+    ]
+}

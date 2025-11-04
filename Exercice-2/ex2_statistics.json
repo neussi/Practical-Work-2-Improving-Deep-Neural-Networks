@@ -1,0 +1,37 @@
+{
+    "experiment": "Regularization Comparison",
+    "models": [
+        {
+            "name": "Baseline (Dropout 0.2)",
+            "train_accuracy": 99.32,
+            "validation_accuracy": 98.25,
+            "test_accuracy": 98.24,
+            "test_loss": 0.0603,
+            "overfitting_gap": 1.07
+        },
+        {
+            "name": "L2 Regularization",
+            "train_accuracy": 96.35,
+            "validation_accuracy": 97.37,
+            "test_accuracy": 96.84,
+            "test_loss": 0.2593,
+            "overfitting_gap": -1.02
+        },
+        {
+            "name": "Heavy Dropout (0.3)",
+            "train_accuracy": 98.86,
+            "validation_accuracy": 98.4,
+            "test_accuracy": 98.17,
+            "test_loss": 0.0628,
+            "overfitting_gap": 0.46
+        },
+        {
+            "name": "L2 + Dropout Combined",
+            "train_accuracy": 96.47,
+            "validation_accuracy": 97.57,
+            "test_accuracy": 97.26,
+            "test_loss": 0.2656,
+            "overfitting_gap": -1.1
+        }
+    ]
+}

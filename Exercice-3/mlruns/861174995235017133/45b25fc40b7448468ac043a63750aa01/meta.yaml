@@ -1,0 +1,15 @@
+artifact_uri: file:///home/patrice/TP2-NEUSSI-24P820/Exercice-3/mlruns/861174995235017133/45b25fc40b7448468ac043a63750aa01/artifacts
+end_time: 1762241188560
+entry_point_name: ''
+experiment_id: '861174995235017133'
+lifecycle_stage: active
+run_id: 45b25fc40b7448468ac043a63750aa01
+run_name: Optimizer_SGD_nesterov
+run_uuid: 45b25fc40b7448468ac043a63750aa01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762241138518
+status: 3
+tags: []
+user_id: patrice
