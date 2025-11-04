@@ -1,0 +1,36 @@
+{
+    "models": [
+        {
+            "name": "Baseline (No BN)",
+            "test_accuracy": 98.08,
+            "validation_accuracy": 98.3,
+            "training_accuracy": 99.28,
+            "training_time": 51.18,
+            "overfitting_gap": 0.98
+        },
+        {
+            "name": "With BN (1 layer)",
+            "test_accuracy": 98.03,
+            "validation_accuracy": 98.18,
+            "training_accuracy": 99.22,
+            "training_time": 57.52,
+            "overfitting_gap": 1.04
+        },
+        {
+            "name": "With BN (Multi)",
+            "test_accuracy": 98.26,
+            "validation_accuracy": 98.5,
+            "training_accuracy": 98.72,
+            "training_time": 143.5,
+            "overfitting_gap": 0.22
+        },
+        {
+            "name": "BN + High LR",
+            "test_accuracy": 98.15,
+            "validation_accuracy": 98.32,
+            "training_accuracy": 98.69,
+            "training_time": 78.64,
+            "overfitting_gap": 0.37
+        }
+    ]
+}
