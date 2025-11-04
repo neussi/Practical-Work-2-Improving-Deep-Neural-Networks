@@ -1,4 +1,3 @@
-Voici ton **README GitHub** propre, **sans emojis** :
 
 ---
 
